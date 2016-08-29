@@ -7,8 +7,8 @@ public class Program {
 
     public static void main(String[] args){
         if(args.length>0)
-            System.out.print("Hello World from: "+ args[0].toString() );
+            System.out.println("Hello World from: "+ args[0].toString() );
         else
-            System.out.print("Hello World from: Shmuel");
+            System.out.println("Hello World from: Shmuel");
     }
 }
